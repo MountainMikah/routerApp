@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#fff',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'top',
 
     },
     input: {
@@ -20,6 +20,24 @@ const styles = StyleSheet.create({
         backgroundColor: 'lightgreen',
         borderRadius: 30,
         padding: 20,
+        margin: 10,
+    },
+    title: {
+        padding:20,
+        fontSize:20,
+    },
+    story: {
+        fontSize: 16,
+        paddingTop:15,
+    },
+    signBox: {
+        borderWidth: 3,
+        borderStyle: 'solid',
+        width: 250,
+        height: 90,
+    },
+    label: {
+        alignContent:'left',
     },
 });
 export default styles;
