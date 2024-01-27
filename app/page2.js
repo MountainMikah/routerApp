@@ -9,6 +9,7 @@ export default function Page() {
     return (
         <View style={Styles.page}>
             <Text style={Styles.title}>This is the second page, look below to read your story!</Text>
+            <Text style={Styles.title}>Hall Pass</Text>
             <Text>The Current Date is {new Date().toDateString()}</Text>
             <Text style={Styles.story}>On a day that was perfect for {adverb}
             {name} had to go to work as a {job}</Text>

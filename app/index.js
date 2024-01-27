@@ -17,7 +17,7 @@ export default function Page() {
           <TextInput style={Styles.input} onChangeText={onChangeAdverb} value={adverb} placeholder={"Put a Adverb/Action here"} />
           <TextInput style={Styles.input} onChangeText={onChangeJob} value={job} placeholder={"Put an occupation/Job here"} />
           <Link style={Styles.button} href={{ pathname: "/page2", params: { job, name, adverb } }} asChild ><Pressable ><Text> Submit to page 2</Text></Pressable></Link>
-          <Pressable style={Styles.button} onPress={() => {  }}><Text>   Clear   </Text></Pressable>
+          <Pressable style={Styles.button} onPress={() => { onChangeName = (""), onChangeAdverb=(""), onChangeJob=("") }}><Text>   Clear   </Text></Pressable>
       </View>
   );
 }
